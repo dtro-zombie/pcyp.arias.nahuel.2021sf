@@ -8,19 +8,31 @@ namespace Clase1.Ejercicio1.Figurasgeometricas
 {
     class figura
     {
-        private List<int> Figura;
+
+        public int PerimetroCuadrado(int lado)
+        {
+            
+
+            
+
+
+            return lado*4;
+        }
+            
+
+        public int areadelcuadrado(int lado)
+        {
+           
+
+
+            return lado *= lado;
+        }
+
+
+
 
     }
 
-    public void setFigura(int valor, int pos)
-    {
-
-    }
-
-
-    public List<int> getFIgura()
-    {
-        return (figura);
-    }
+   
 
 }
