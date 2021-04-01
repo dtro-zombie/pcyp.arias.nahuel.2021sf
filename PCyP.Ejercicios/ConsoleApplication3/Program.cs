@@ -9,21 +9,19 @@ namespace ConsoleApplication3
 {
     class Program
     {
+        
+
         static void Main(string[] args)
+
+
         {
+
+            archivo a1 = new archivo();
             string[] lineas= File.ReadAllLines("./files/vial.csv");
 
 
-            foreach(var linea in lineas)
-            {
-                var valores = linea.Split(',');
-                Console.WriteLine(" NUMERO DE HOJA: "+ valores[0]
-                    +" TIPO OBJETO: "+ valores[1]
-                    +" IDENTIFICADOR TRAMO: "+ valores[2]
-                    +" TIPO CAMINO: "+valores[3]
-                    +" LONGITUD: "+ valores[4]);
-                Console.WriteLine("");
-            }
+            a1.imprimir(lineas);
+            
 
 
         }
